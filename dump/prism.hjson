@@ -1,0 +1,34 @@
+type: PowerTurret
+targetAir: false
+health: 6400
+reloadTime: 8
+range: 200
+size: 6
+shootSound: laser
+heatColor: ff0000
+powerUse: 70
+shootShake: 1
+chargeTime: 0
+chargeBeginEffect: {
+  type: ParticleEffect
+  lifetime: 30
+  length: 0
+  particles: 1
+  sizeFrom: 0
+  sizeTo: 2
+  colorFrom: 7382f0
+}
+shootType: {
+  type: LaserBulletType
+  length: 220
+  width: 80
+  damage: 110
+  colors: [7382f040, 7382f0, ffffff]
+}
+category: turret
+research: lancer
+requirements: [
+  thorium/1500
+  silicon/500
+  surge-alloy/1200
+]
