@@ -1,0 +1,35 @@
+type: ItemTurret
+size: 5
+targetAir: false
+targetGround: false
+range: 1200
+health: 6250
+reloadTime: 24000
+recoilAmount: 3
+shots: 1
+shootEffect: shootBig
+smokeEffect: shootBigSmoke
+shootSound: artillery
+shootShake: 5
+ammoUseEffect: casing2
+ammoTypes: {
+  silicon: {
+    type: ArtilleryBulletType
+    splashDamage: 75000
+    splashDamageRadius: 392
+    speed: 30
+    lifetime: 8000
+    width: 45
+    height: 51
+    hitShake: 1.5
+    frontColor: fd8e8e
+    backColor: ad4244
+    despawnEffect: blastExplosion
+  }
+}
+category: turret
+research: foreshadow
+requirements: [
+  copper/80
+  graphite/70
+]

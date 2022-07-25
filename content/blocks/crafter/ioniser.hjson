@@ -1,0 +1,25 @@
+type: GenericCrafter
+size: 2
+craftTime: 60
+hasPower: true
+liquidCapacity: 40
+consumes: {
+  items: {
+    items: [
+      copper/2
+    ]
+  }
+  liquid: {
+    liquid: sulfuric-acid
+    amount: 0.1
+  }
+  power: 2
+}
+outputItem: lead/1
+requirements: [
+    lead/18
+    copper/22
+    silicon/14
+]
+category: crafting
+research: cryofluid-mixer

@@ -1,0 +1,51 @@
+type: Reconstructor
+
+health: 3240
+size: 9
+itemCapacity: 20
+liquidCapacity: 25
+constructTime: 8820
+
+requirements: [
+    surge-alloy/900
+    lead/4400
+    silicon/3750
+    phase-fabric/800
+    plastanium/750
+    blast-plating/450
+]
+
+upgrades: [
+    [executioner,annahilator],
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 1150
+            },
+            {
+                item: blast-plating
+                amount: 750
+            },
+            {
+                item: plastanium
+                amount: 700
+            },
+            {
+                item: surge-alloy
+                amount: 600
+            },
+        ]
+    }
+    liquid: {
+        liquid: cryofluid
+        amount: 4.5
+    }
+    power: 33
+}
+
+category: units
+research: blast-multiplicative-reconstructor

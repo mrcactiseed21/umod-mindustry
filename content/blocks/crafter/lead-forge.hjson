@@ -1,0 +1,23 @@
+type: GenericCrafter
+size: 2
+hasItems: true
+hasPower: true
+itemCapacity: 20
+requirements: [
+  lead/75
+  copper/35
+  silicon/15
+]
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      lead/2
+      coal/1
+    ]
+  }
+}
+outputItem: leadsteel/1
+craftTime: 45
+category: crafting
+research: silicon-smelter,

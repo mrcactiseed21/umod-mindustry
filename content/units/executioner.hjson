@@ -1,0 +1,51 @@
+type: mech
+speed: 0.35
+health: 10500
+armor: 13
+weapons: [
+    {
+        name: blast-cannon
+        reload: 30
+        x: 6
+        y: -4
+	recoil:3
+        top: true
+        bullet: {
+            type: BasicBulletType
+            damage: 45
+            speed: 2.2
+            width: 13
+            height: 16
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+	    splashDamageRadius: 18
+            splashDamage: 35
+            lifetime: 70
+            sprite: bullet
+        }
+    },
+    {
+        name: blast-cannon
+        reload: 45
+        x: 11
+        y: 4
+	recoil:3
+        top: true
+        bullet: {
+            type: BasicBulletType
+            damage: 45
+            speed: 2.2
+            width: 13
+            height: 16
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+	    splashDamageRadius: 18
+            splashDamage: 35
+            lifetime: 70
+            sprite: bullet
+        }
+    },
+]
+research: destroyer

@@ -1,0 +1,41 @@
+type: Reconstructor
+
+health: 1000
+size: 5
+itemCapacity: 20
+constructTime: 2100
+
+requirements: [
+    copper/250
+    lead/160
+    silicon/120
+    blast-compound/90
+]
+
+upgrades: [
+    [blaster, destroyer],
+    [napalm, flamer],
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 125
+            },
+            {
+                item: titanium
+                amount: 150
+            },
+            {
+                item: blast-plating
+                amount: 35
+            },
+        ]
+    }
+    power: 7.5
+}
+
+category: units
+research: blast-additive-reconstructor

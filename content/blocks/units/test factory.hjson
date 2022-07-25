@@ -1,0 +1,63 @@
+type: UnitFactory
+
+health: 5000
+size: 1
+itemCapacity: 30
+
+requirements: [
+    blast-plating/1000000
+]
+
+plans: [
+    {
+        unit: blast-walker
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+    {
+        unit: blaster
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+    {
+        unit: destroyer
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+    {
+        unit: executioner
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+    {
+        unit: annahilator
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+    {
+        unit: blast-flare
+        requirements: [
+	    silicon/1	
+        ]
+        time: 30
+    },
+]
+
+
+category: units
+
+consumes: {
+    power: 1.5
+}
+
+research: ground-factory

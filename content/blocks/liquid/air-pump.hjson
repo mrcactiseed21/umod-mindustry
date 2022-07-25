@@ -1,0 +1,19 @@
+type: Fracker
+size: 2
+liquidCapacity: 40
+canOverdrive: false
+result: atmospheric-gas
+itemUseTime: 90
+rotateSpeed: 27
+consumes: {
+    power: 0.5
+}
+pumpAmount: 0.15
+category: production
+requirements: [
+    copper/24
+    metaglass/12
+    lead/6
+]
+
+research: conduit

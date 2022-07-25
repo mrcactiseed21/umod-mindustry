@@ -1,0 +1,8 @@
+name: tempered-glass
+color: e2e2f0
+research: {
+    parent:lead
+    requirements:
+    [
+    ]
+}

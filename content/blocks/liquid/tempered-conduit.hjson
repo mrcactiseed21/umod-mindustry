@@ -1,0 +1,14 @@
+type: Conduit
+leaks: true
+health: 135
+requirements: [
+  tempered-glass/1
+  leadsteel/1
+  metaglass/1
+]
+liquidCapacity: 22
+liquidPressure: 1.75
+category: liquid
+research: plated-conduit
+
+research: pulse-conduit

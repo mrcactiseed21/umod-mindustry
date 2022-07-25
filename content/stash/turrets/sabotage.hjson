@@ -1,0 +1,25 @@
+type: PowerTurret
+size: 3
+range: 1200
+reloadTime: 60
+recoilAmount: 3
+shootSound: beam
+shootShake: 5
+shootType: {
+  type: ContinuousLaserBulletType
+  splashDamage: 75000
+  splashDamageRadius: 392
+  speed: 30
+  lifetime: 60
+  width: 45
+  height: 51
+}
+category: turret
+research: meltdown
+requirements: [
+  copper/650
+  lead/200
+  graphite/80
+  silicon/150
+  surge-alloy/175
+]

@@ -1,0 +1,8 @@
+type: Wall
+size: 1
+health: 1150
+requirements: [
+  blast-plating/8
+  ]
+category: defense
+research: surge-wall

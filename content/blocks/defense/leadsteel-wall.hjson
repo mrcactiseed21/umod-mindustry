@@ -1,0 +1,8 @@
+type: Wall
+size: 1
+health: 650
+requirements: [
+  leadsteel/8
+  ]
+category: defense
+research: titanium-wall

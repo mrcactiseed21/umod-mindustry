@@ -1,0 +1,41 @@
+type: Reconstructor
+
+health: 360
+size: 3
+itemCapacity: 20
+constructTime: 820
+
+requirements: [
+    copper/250
+    lead/160
+    silicon/120
+    blast-compound/90
+]
+
+upgrades: [
+    [blast-walker, blaster],
+    [blast-flare, napalm],
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 30
+            },
+            {
+                item: graphite
+                amount: 40
+            },
+            {
+                item: blast-compound
+                amount: 50
+            },
+        ]
+    }
+    power: 3.5
+}
+
+category: units
+research: blast-factory

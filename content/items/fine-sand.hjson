@@ -1,0 +1,8 @@
+name: fine-sand
+color: f4dfcd
+research: {
+    parent:lead
+    requirements:
+    [
+    ]
+}

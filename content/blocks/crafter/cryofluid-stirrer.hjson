@@ -1,0 +1,27 @@
+type: GenericCrafter
+size: 3
+craftTime: 180
+hasPower: true
+liquidCapacity: 40
+outputLiquid: cryofluid/2.6
+consumes: {
+    power: 5
+    items: {
+        items: [
+            titanium/7
+            blast-compound/2
+        ]
+    }
+    liquid: {
+        liquid: water
+        amount: 0.6
+    }
+}
+requirements: [
+    lead/520
+    silicon/120
+    titanium/200
+    thorium/80
+]
+category: crafting
+research: cryofluid-mixer

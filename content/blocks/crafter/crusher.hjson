@@ -1,0 +1,24 @@
+type: GenericCrafter
+size: 1
+hasItems: true
+hasPower: true
+itemCapacity: 20
+
+requirements: [
+  lead/35
+  copper/40
+  leadsteel/10
+]
+
+consumes: {
+  power: 1
+  items: {
+    items: [
+      sand/1
+    ]
+  }
+}
+outputItem: fine-sand/1
+craftTime: 80
+category: crafting
+research: pulverizer,

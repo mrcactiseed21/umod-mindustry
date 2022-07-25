@@ -1,0 +1,9 @@
+name: leadsteel
+color: bab7ce
+
+research: {
+    parent:lead
+    requirements:
+    [
+    ]
+}

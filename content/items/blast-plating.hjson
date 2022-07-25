@@ -1,0 +1,9 @@
+name: blast-plating
+color: b83f00
+
+research: {
+    parent:surge-alloy
+    requirements:
+    [
+    ]
+}

@@ -1,0 +1,31 @@
+type: mech
+speed: 0.35
+health: 1150
+armor: 11
+weapons: [
+    {
+        name: blast-cannon
+        reload: 90
+        x: 8.5
+        y: 0
+	recoil:3
+        top: false
+        ejectEffect: casing1
+	shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            damage: 70
+            speed: 1.2
+            width: 10
+            height: 12
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+	    splashDamageRadius: 24
+            splashDamage: 140
+            lifetime: 180
+            sprite: bullet
+        }
+    }
+]
+research: blaster

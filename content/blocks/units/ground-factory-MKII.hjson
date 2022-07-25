@@ -1,0 +1,50 @@
+type: UnitFactory
+
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/50
+    lead/120
+    silicon/90
+    thorium/80
+    titanium/120
+]
+
+plans: [
+    {
+        unit: dagger
+        requirements: [
+	    silicon/10	
+            lead/10
+        ]
+        time: 450
+    },
+    {
+        unit: nova
+        requirements: [
+	    silicon/30	
+            lead/20
+            titanium/20
+        ]
+        time: 1200
+    },
+    {
+        unit: crawler
+        requirements: [
+	    silicon/8	
+            coal/10
+        ]
+        time: 300
+    },
+]
+
+
+category: units
+
+consumes: {
+    power: 3
+}
+
+research: ground-factory

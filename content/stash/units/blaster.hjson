@@ -1,0 +1,28 @@
+type: mech
+speed: 0.4
+health: 700
+armor: 5
+weapons: [
+    {
+        name: blast-gun
+        reload: 24
+        x: 5
+        y: 2
+	recoil:1
+        top: false
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 40
+            speed: 1.2
+            width: 10
+            height: 12
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+            lifetime: 90
+            sprite: bullet
+        }
+    }
+]
+research: blast-walker

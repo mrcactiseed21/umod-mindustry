@@ -1,0 +1,26 @@
+type: GenericCrafter
+size: 2
+hasItems: true
+hasPower: true
+itemCapacity: 20
+requirements: [
+  lead/50
+  copper/45
+  leadsteel/15
+  graphite/25
+  metaglass/5
+]
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      leadsteel/1
+      metaglass/1
+      fine-sand/1
+    ]
+  }
+}
+outputItem: tempered-glass/1
+craftTime: 45
+category: crafting
+research: kiln,

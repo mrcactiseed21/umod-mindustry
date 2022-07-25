@@ -1,0 +1,10 @@
+name: sulfur
+color: bab7ce
+explosiveness: 0.3
+flammability: 0.4
+research: {
+    parent:lead
+    requirements:
+    [
+    ]
+}

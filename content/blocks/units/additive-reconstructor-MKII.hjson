@@ -1,0 +1,44 @@
+type: Reconstructor
+
+health: 360
+size: 3
+itemCapacity: 20
+constructTime: 300
+
+requirements: [
+    copper/65
+    graphite/70
+    lead/135
+    silicon/115
+    thorium/100
+    titanium/180
+]
+
+upgrades: [
+    [nova, pulsar],
+    [dagger, mace],
+    [crawler, atrax],
+    [flare, horizon],
+    [mono, poly],
+    [risso, minke],
+    [retusa, oxynoe],
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 40
+            },
+            {
+                item: graphite
+                amount: 40
+            },
+        ]
+    }
+    power: 3.5
+}
+
+category: units
+research: blast-factory

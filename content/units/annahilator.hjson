@@ -1,0 +1,53 @@
+type: mech
+speed: 0.4
+health: 27000
+armor: 17
+weapons: [
+    {
+        name: large-blast-cannon
+        reload: 54
+        x: 22
+        y: 1
+	recoil:3
+        top: false
+	shootSound: artillery
+        bullet: {
+            type: ArtilleryBulletType
+            damage: 500
+            speed: 2
+            width: 24
+            height: 24
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+	    splashDamageRadius: 40
+            splashDamage: 250
+            lifetime: 110
+            sprite: bullet
+        }
+    },
+    {
+        name: blast-cannon-centred
+        reload: 4
+        x: 11
+        y: -2
+	recoil:3
+        top: true
+        rotate: true
+        bullet: {
+            type: BasicBulletType
+            damage: 13
+            speed: 2.3
+            width: 6
+            height: 8
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 3
+	    splashDamageRadius: 14
+            splashDamage: 9
+            lifetime: 68
+            sprite: bullet
+        }
+    },
+]
+research: executioner

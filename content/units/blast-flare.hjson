@@ -1,0 +1,31 @@
+type: flying
+speed: 2.7
+flying: true
+drag: 0.01
+accel: 0.07
+health: 90
+armor: 1
+circleTarget: true
+weapons: [
+    {
+        name: smal-gun
+        reload: 8
+        x: 2
+        y: 1
+        top: false
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 7
+            speed: 3
+            width: 7
+            height: 8.5
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 10
+            lifetime: 60
+            sprite: bullet
+        }
+    }
+]
+research: blast-factory

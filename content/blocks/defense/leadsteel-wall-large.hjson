@@ -1,0 +1,8 @@
+type: Wall
+size: 2
+health: 2600
+requirements: [
+  leadsteel/32
+  ]
+category: defense
+research: leadsteel-wall

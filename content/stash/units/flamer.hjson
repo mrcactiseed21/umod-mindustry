@@ -1,0 +1,44 @@
+type: flying
+speed: 1.6
+flying: true
+drag: 0.025
+accel: 0.07
+health: 850
+armor: 7
+weapons: [
+    {
+        name: smal-gun
+        reload: 8
+        x: 0
+        y: 5
+        shootSound: flame
+        top: false
+        bullet: {
+            type: basicBulletType
+            damage: 25
+            speed: 12
+            width: 0
+            height: 0
+            frontColor: ff8800
+            backColor: ff8800
+            lifetime: 5
+            hitEffect: none
+            status: burning
+            despawnEffect: none
+            pierce: true
+            pierceBuilding: true
+            smokeEffect: {
+                type: ParticleEffect
+                particles: 25
+                sizeFrom: 3
+                sizeTo: 0
+                length: 100
+                lifetime: 35
+                colorFrom: ffdd55
+                colorTo: db401c
+                cone: 10
+            }
+        }
+    }
+]
+research: blast-factory

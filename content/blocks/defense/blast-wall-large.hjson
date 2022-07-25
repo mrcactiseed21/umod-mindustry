@@ -1,0 +1,8 @@
+type: Wall
+size: 2
+health: 4600
+requirements: [
+  blast-plating/32
+  ]
+category: defense
+research: blast-wall

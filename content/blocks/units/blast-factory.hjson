@@ -1,0 +1,40 @@
+type: UnitFactory
+
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/50
+    lead/120
+    silicon/90
+    blast-compound/75
+]
+
+plans: [
+    {
+        unit: blast-walker
+        requirements: [
+	    silicon/20	
+            blast-compound/10
+        ]
+        time: 1080
+    },
+    {
+        unit: blast-flare
+        requirements: [
+	    silicon/10	
+            blast-compound/20
+        ]
+        time: 1320
+    },
+]
+
+
+category: units
+
+consumes: {
+    power: 1.5
+}
+
+research: ground-factory

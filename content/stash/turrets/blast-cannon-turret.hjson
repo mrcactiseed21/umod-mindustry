@@ -1,0 +1,61 @@
+{type: ItemTurret 
+health: 1260
+size: 2
+range: 112
+cooldown: 0.5
+cooldowntMultiplier: 0.01
+rotateSpeed: 11
+restitution:0.09
+recoilAmount: 3
+itemCapacity: 31
+liquidCapacity: 31
+ammoEjectBack: 2
+shots: 3
+inaccuracy: 12
+buildTime: 120
+buildCostMultiplier: 0.37
+hasItems: true
+hasPower: false
+hasLiquid: true
+targetAir: false
+targetGround: true
+shootSound: artillery
+
+ammoTypes:{
+  blast-compound:{
+    damage: 18
+    speed: 2
+    heigth: 6.5
+    width: 5
+    frontColor: ff3100
+    backColor: bc6d6d
+    lifetime: 45
+    ammoMultiplier: 1
+    },
+  blast-plating:{
+    damage: 24
+    speed: 3
+    heigth: 8
+    width: 6.5
+    frontColor: e86100
+    backColor: bc6d6d
+    lifetime: 45
+    ammoMultiplier: 1
+    }
+  }
+consumes:{
+    liquid:{
+      liquid: cryofluid
+      amount: 0.1
+      booster: true
+      optional: true
+    }
+  }
+requirements:[
+    blast-plating/70
+    blast-compound/50
+    surge-alloy/85
+    thorium/65
+  ]
+category: turret
+}

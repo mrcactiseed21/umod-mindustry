@@ -1,0 +1,32 @@
+type: legs
+speed: 0.4
+health: 180
+armor: 3
+legCount: 4
+legLength: 6
+legBaseOffset: 0
+legExtension: 0
+legSpeed: 0.3
+weapons: [
+    {
+        name: blast-gun
+        reload: 16
+        x: 4
+        y: 2
+        top: false
+        ejectEffect: casing1
+        bullet: {
+            type: BasicBulletType
+            damage: 15
+            speed: 2.4
+            width: 7
+            height: 11
+            frontColor: e86100
+            backColor: bc6d6d
+            inaccuracy: 5
+            lifetime: 55
+            sprite: bullet
+        }
+    }
+]
+research: blast-factory

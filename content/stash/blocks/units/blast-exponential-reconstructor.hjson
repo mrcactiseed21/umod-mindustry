@@ -1,0 +1,49 @@
+type: Reconstructor
+
+health: 1960
+size: 7 
+itemCapacity: 20
+constructTime: 6600
+
+requirements: [
+    lead/3000
+    silicon/1250
+    phase-fabric/650
+    plastanium/500
+    blast-plating/150
+]
+
+upgrades: [
+    [destroyer, executioner],
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 900
+            },
+            {
+                item: titanium
+                amount: 775
+            },
+            {
+                item: blast-plating
+                amount: 400
+            },
+            {
+                item: plastanium
+                amount: 700
+            },
+        ]
+    }
+    liquid: {
+        liquid: cryofluid
+        amount: 1.5
+    }
+    power: 16
+}
+
+category: units
+research: blast-multiplicative-reconstructor
